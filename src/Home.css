@@ -1,0 +1,94 @@
+.profile,.frontend,.backend,.program{
+    /* background-color: #000000; */
+    color: aliceblue;
+ margin-bottom: 30px;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+}
+img{
+  height: 300px;
+  width: 300px;
+    border-radius: 50%;
+     float :right;
+}
+h2{
+    font-size: 1.5rem !important;
+    color: #ed1414;
+    text-align: center;
+    align-self: auto;
+    
+}
+.profile p{
+    margin: 3px auto;
+    margin-top: 30px;
+    text-align: justify;
+}
+.box{
+    display: grid;
+    max-height: 600px;
+    max-width: 700px;
+
+    gap: 20px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+
+}
+.box div{
+    padding: 10px;
+    color: aliceblue;
+    /* background-color: rgb(79, 69, 69); */
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+.box .rea{
+   justify-self: end;
+   background-color: #fff;
+   max-width: 700px;
+
+   
+}
+.profile{
+    display: flex;
+    /* justify-content: space-around; */
+    height: 400px;
+    width: 55%;
+    gap: 20px;
+}
+.des{
+    margin-top: 30px;
+    display: flex;
+/* flex: 0.5; */
+/* float: left; */
+flex-direction:column;
+width: 50%;
+justify-content:start;
+align-items: start;
+}
+.lin{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+i{
+    font-size: 30px;
+    box-shadow: 3px white;
+   transition: 2s  ease-in-out;
+   font-size: 90px;
+}
+ i:hover {
+    transform: scale(1.2) rotateY(360deg);
+}
+.react{
+    font-size: 90px;
+    animation: App-logo-spin infinite 10s linear;
+}
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }}
